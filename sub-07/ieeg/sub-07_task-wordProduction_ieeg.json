@@ -1,0 +1,33 @@
+{
+  "TaskName": "wordProduction",
+  "Manufacturer": "Micromed",
+  "PowerLineFrequency": 50.0,
+  "SamplingFrequency": 1024.0,
+  "SoftwareFilters": {
+    "Downsampling": {
+      "Description": "Data were recorded at either 1024 Hz or 2048 Hz and subsequently downsampled to 1024 Hz by the data authors (Verwoert et al. 2022); method not reported"
+    }
+  },
+  "RecordingDuration": 300.3662109375,
+  "RecordingType": "continuous",
+  "iEEGReference": "RT11",
+  "ECOGChannelCount": 0,
+  "SEEGChannelCount": 127,
+  "EEGChannelCount": 0,
+  "EOGChannelCount": 0,
+  "ECGChannelCount": 0,
+  "EMGChannelCount": 0,
+  "MiscChannelCount": 0,
+  "TriggerChannelCount": 0,
+  "iEEGGround": "RL10",
+  "TaskDescription": "Speech production of 100 unique Dutch words",
+  "Instructions": "Speak the word presented on the screen out-loud",
+  "ManufacturersModelName": "SD LTM (two or more 64-channel amplifiers)",
+  "InstitutionName": "Academic Center for Epileptology Kempenhaeghe",
+  "ElectrodeManufacturer": "Dixi Medical",
+  "ElectrodeManufacturersModelName": "Microdeep intracerebral electrodes (platinum-iridium; 0.8 mm diameter, 2 mm contact length, 1.5 mm inter-contact distance, 5-18 contacts per shaft)",
+  "iEEGPlacementScheme": "Electrode locations were determined purely by clinical necessity",
+  "iEEGElectrodeGroups": "sEEG shafts; contact names are shaft label + contact number",
+  "HardwareFilters": "n/a",
+  "SourceManufacturerField": "The source sidecar listed Manufacturer 'Micromed'; the data descriptor states Micromed SD LTM amplifiers, used here."
+}

@@ -1,0 +1,18 @@
+{
+  "name": {
+    "Description": "Contact name (shaft label + contact number)"
+  },
+  "x": {
+    "Description": "x coordinate (ACPC space, mm)"
+  },
+  "y": {
+    "Description": "y coordinate (ACPC space, mm)"
+  },
+  "z": {
+    "Description": "z coordinate (ACPC space, mm)"
+  },
+  "size": {
+    "Description": "Contact size as given in the source release (value 5; consistent with the surface of a 0.8 mm x 2 mm cylindrical contact, about 5.0 mm^2)",
+    "Units": "mm^2"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "Name": "Dataset of Speech Production in intracranial Electroencephalography (SingleWordProductionDutch-iBIDS)",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "raw",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Maxime Verwoert",
+    "Maarten C. Ottenhoff",
+    "Sophocles Goulis",
+    "Albert J. Colon",
+    "Louis Wagner",
+    "Simon Tousseyn",
+    "Johannes P. van Dijk",
+    "Pieter L. Kubben",
+    "Christian Herff"
+  ],
+  "Acknowledgements": "Original data collection, curation and release by M. Verwoert, C. Herff and colleagues (Maastricht University; Academic Center for Epileptology Kempenhaeghe/Maastricht UMC+). Conversion of the NWB iEEG streams to BrainVision and metadata enrichment for NEMAR by the NEMAR iEEG curation campaign (2026); no signal processing was applied.",
+  "HowToAcknowledge": "Please cite: Verwoert, M., Ottenhoff, M.C., Goulis, S. et al. Dataset of Speech Production in intracranial Electroencephalography. Sci Data 9, 434 (2022). https://doi.org/10.1038/s41597-022-01542-9 ; and the data record https://doi.org/10.17605/OSF.IO/NRGX6",
+  "Funding": [
+    "Dutch Research Council (NWO), project 'DEcoding Speech In SEEG (DESIS)', VI.Veni.194.021 (C. Herff)"
+  ],
+  "EthicsApprovals": [
+    "Experiment design and data recording were approved by the Institutional Review Boards of both Maastricht University and Epilepsy Center Kempenhaeghe. All participants joined the study on a voluntary basis and gave written informed consent (Verwoert et al. 2022)."
+  ],
+  "ReferencesAndLinks": [
+    "https://doi.org/10.1038/s41597-022-01542-9",
+    "https://doi.org/10.17605/OSF.IO/NRGX6",
+    "https://github.com/neuralinterfacinglab/SingleWordProductionDutch"
+  ],
+  "Keywords": [
+    "intracranial EEG",
+    "stereo-EEG",
+    "sEEG",
+    "speech production",
+    "speech decoding",
+    "Dutch",
+    "single words",
+    "brain-computer interface",
+    "epilepsy",
+    "audio"
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.17605/OSF.IO/NRGX6",
+      "URL": "https://osf.io/nrgx6/",
+      "Version": "OSF file SingleWordProductionDutch-iBIDS.zip, sha256 in sourcedata/osf-nrgx6/acquisition_receipt.json"
+    }
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "NEMAR iEEG curation campaign: harness/b2osf_ieeg034_convert.py + b2osf_ieeg034_enrich_check.py",
+      "Description": "Lossless re-encoding of the NWB 'iEEG' acquisition stream to BrainVision integer codes (INT_16, or INT_32 where needed) at the coarsest exact quantum per participant (see README), or the original NWB where no exact integer coding exists; sidecars copied from the source iBIDS release and enriched from the data descriptor."
+    }
+  ]
+}

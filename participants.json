@@ -1,0 +1,36 @@
+{
+  "participant_id": {
+    "Description": "Unique participant identifier (as in the source release)"
+  },
+  "age": {
+    "Description": "Age of the participant at time of testing (source participants.tsv)",
+    "Units": "year"
+  },
+  "sex": {
+    "Description": "Biological sex of the participant (source participants.tsv)",
+    "Levels": {
+      "F": "female",
+      "M": "male"
+    }
+  },
+  "handedness": {
+    "Description": "Handedness (source column 'hand'; not reported for any participant)",
+    "Levels": {
+      "R": "right",
+      "L": "left",
+      "A": "ambidextrous"
+    }
+  },
+  "n_contacts_implanted": {
+    "Description": "Number of implanted sEEG contacts (Verwoert et al. 2022, Table 1)"
+  },
+  "n_contacts_recorded": {
+    "Description": "Number of recorded contacts, excluding the reference contact (Verwoert et al. 2022, Table 1)"
+  },
+  "native_language": {
+    "Description": "All participants were native speakers of Dutch (Verwoert et al. 2022, Methods)"
+  },
+  "pathology": {
+    "Description": "Clinical indication for the sEEG implantation (Verwoert et al. 2022, Methods)"
+  }
+}

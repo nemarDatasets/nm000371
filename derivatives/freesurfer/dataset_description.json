@@ -1,0 +1,18 @@
+{
+  "Name": "FreeSurfer anatomy derivatives of SingleWordProductionDutch-iBIDS (as released by the data authors)",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-4.0",
+  "GeneratedBy": [
+    {
+      "Name": "FreeSurfer",
+      "Description": "recon-all outputs released by the data authors: pial surface meshes (_lh_pial.mat/_rh_pial.mat), skull-stripped brain (_brain.mgz), Destrieux parcellation (_aparc.a2009s+aseg.mgz) and white-matter parcellation (_wmparc.mgz); electrode localisation with img_pipe (Verwoert et al. 2022). Files are byte-identical to the OSF release; only the folder was moved."
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.17605/OSF.IO/NRGX6",
+      "URL": "https://osf.io/nrgx6/"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+    "Name": "SingleWordProductionDutch-iBIDS",
+    "BIDSVersion": "1.7.0",
+    "DatasetType": "raw",
+    "Authors": [
+        "Verwoert M",
+        "Herff C"
+    ]
+}

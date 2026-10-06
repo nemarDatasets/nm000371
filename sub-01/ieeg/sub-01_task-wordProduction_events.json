@@ -1,0 +1,23 @@
+{
+  "onset": {
+    "Description": "Onset of the screen event relative to the first iEEG sample",
+    "Units": "s"
+  },
+  "duration": {
+    "Description": "Duration of the screen event",
+    "Units": "s"
+  },
+  "trial_type": {
+    "Description": "Screen content type",
+    "Levels": {
+      "word": "A Dutch word (IFA corpus, extended with the numbers one to ten) shown for about 2 s; the participant read it aloud once",
+      "fixation": "Fixation cross shown for about 1 s after each word"
+    }
+  },
+  "value": {
+    "Description": "The word shown on screen ('+' for fixation). Numbers appear as digits in the source markers."
+  },
+  "sample": {
+    "Description": "Index of the iEEG sample at event onset (0-based, 1024 Hz)"
+  }
+}

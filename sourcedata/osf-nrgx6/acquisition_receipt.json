@@ -1,0 +1,25 @@
+{
+ "dest": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/IEEG034/sourcedata/osf-nrgx6/SingleWordProductionDutch-iBIDS.zip",
+ "source_url": "https://osf.io/download/g6q5m/",
+ "bytes": 2794936886,
+ "upstream_bytes": 2794936886,
+ "md5": "328e91d313fafdc66a85a5e024bcef44",
+ "sha256": "015bc9c565c3dbdc7259c01be54f62b3346cbd7dc5cec8156eb718f64b6cbcd9",
+ "s3etag_computed": "ec12a17cac7ff4cde19db92055a205f9-11",
+ "expected": {
+  "md5": "328e91d313fafdc66a85a5e024bcef44",
+  "sha256": "015bc9c565c3dbdc7259c01be54f62b3346cbd7dc5cec8156eb718f64b6cbcd9",
+  "s3etag": null,
+  "size": 2794936886
+ },
+ "checks": {
+  "size": true,
+  "md5": true,
+  "sha256": true
+ },
+ "verified": true,
+ "parts": 11,
+ "part_bytes": 268435456,
+ "seconds": 47,
+ "finished_utc": "2026-10-06T21:27:24Z"
+}
