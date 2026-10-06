@@ -1,0 +1,96 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Maxime Verwoert": {
+      "orcid": "0000-0002-7581-2850"
+    },
+    "Maarten C. Ottenhoff": {},
+    "Sophocles Goulis": {},
+    "Albert J. Colon": {},
+    "Louis Wagner": {},
+    "Simon Tousseyn": {},
+    "Johannes P. van Dijk": {},
+    "Pieter L. Kubben": {},
+    "Christian Herff": {
+      "orcid": "0000-0002-5610-2618"
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.17605/OSF.IO/NRGX6",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1038/s41597-022-01542-9",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000371",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000371",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Dutch Research Council (NWO)",
+      "award_number": "VI.Veni.194.021",
+      "award_title": "DEcoding Speech In SEEG (DESIS)"
+    }
+  ],
+  "title": "Dataset of Speech Production in intracranial Electroencephalography (SingleWordProductionDutch-iBIDS)",
+  "license": "CC-BY-4.0",
+  "dataset_type": "raw",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "8.04 GB (78 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".mat",
+    ".md",
+    ".mgz",
+    ".nwb",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".zip"
+  ],
+  "description": "Stereo-EEG recordings from 10 Dutch-speaking patients with pharmaco-resistant epilepsy who read aloud 100 Dutch words presented one at a time on a screen. Intracranial EEG and pitch-shifted speech audio were recorded simultaneously, covering 1103 contacts across cortical and subcortical structures. The dataset supports research on speech production and speech decoding for brain-computer interfaces.",
+  "methods_description": "sEEG was recorded with Dixi Medical Microdeep shafts and Micromed SD LTM amplifiers at 1024 or 2048 Hz, with data downsampled to 1024 Hz. Participants read 100 Dutch words (2 s word display, 1 s fixation cross) while audio was recorded with a notebook microphone at 48 kHz. Neural, audio and stimulus streams were synchronised with LabStreamingLayer. Electrodes were localised with img_pipe by co-registering pre-implant T1 MRI with post-implant CT, and labelled using the Destrieux atlas.",
+  "keywords": [
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "stereo-EEG"
+    },
+    {
+      "term": "speech production"
+    },
+    {
+      "term": "speech decoding"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    }
+  ],
+  "source_hash": "4b92ddfafc240dec560f0d5ba0d8111dfe1629af24a1b4fad353b05a79d0f023"
+}
