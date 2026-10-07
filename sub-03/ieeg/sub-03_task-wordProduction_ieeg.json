@@ -20,14 +20,15 @@
   "MiscChannelCount": 0,
   "TriggerChannelCount": 0,
   "iEEGGround": "RY14",
-  "TaskDescription": "Speech production of 100 unique Dutch words",
+  "TaskDescription": "Speech production of 100 unique Dutch words: one random word from the Dutch IFA corpus (extended with the numbers one to ten in word form) shown on a laptop screen for 2 s, read aloud once, followed by a 1 s fixation cross; about 300 s per participant (Verwoert et al. 2022, 'Experimental design'). Source sidecar text: 'Speech production of 100 unique Dutch words'.",
   "Instructions": "Speak the word presented on the screen out-loud",
   "ManufacturersModelName": "SD LTM (two or more 64-channel amplifiers)",
   "InstitutionName": "Academic Center for Epileptology Kempenhaeghe",
+  "InstitutionAddress": "Heeze/Maastricht, The Netherlands",
   "ElectrodeManufacturer": "Dixi Medical",
   "ElectrodeManufacturersModelName": "Microdeep intracerebral electrodes (platinum-iridium; 0.8 mm diameter, 2 mm contact length, 1.5 mm inter-contact distance, 5-18 contacts per shaft)",
   "iEEGPlacementScheme": "Electrode locations were determined purely by clinical necessity",
   "iEEGElectrodeGroups": "sEEG shafts; contact names are shaft label + contact number",
   "HardwareFilters": "n/a",
-  "SourceManufacturerField": "The source sidecar listed Manufacturer 'Micromed'; the data descriptor states Micromed SD LTM amplifiers, used here."
+  "SourceManufacturerField": "The source iBIDS sidecar listed Manufacturer 'BrainProducts'; the data descriptor states Micromed SD LTM amplifiers (Micromed S.p.A., Treviso, Italy), used here."
 }

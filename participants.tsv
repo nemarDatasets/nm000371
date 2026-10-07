@@ -1,11 +1,11 @@
-participant_id	age	sex	handedness	n_contacts_implanted	n_contacts_recorded	native_language	pathology
-sub-01	20	F	n/a	133	127	Dutch	pharmaco-resistant epilepsy
-sub-02	43	M	n/a	234	127	Dutch	pharmaco-resistant epilepsy
-sub-03	24	M	n/a	184	127	Dutch	pharmaco-resistant epilepsy
-sub-04	46	F	n/a	117	115	Dutch	pharmaco-resistant epilepsy
-sub-05	50	F	n/a	61	60	Dutch	pharmaco-resistant epilepsy
-sub-06	16	M	n/a	155	127	Dutch	pharmaco-resistant epilepsy
-sub-07	47	M	n/a	134	127	Dutch	pharmaco-resistant epilepsy
-sub-08	22	F	n/a	56	54	Dutch	pharmaco-resistant epilepsy
-sub-09	20	F	n/a	119	117	Dutch	pharmaco-resistant epilepsy
-sub-10	36	M	n/a	124	122	Dutch	pharmaco-resistant epilepsy
+participant_id	age	sex	handedness	n_contacts_implanted	n_contacts_recorded	native_language	pathology	implanted_hemisphere	n_shafts	n_shafts_left	n_shafts_right
+sub-01	20	F	n/a	133	127	Dutch	pharmaco-resistant epilepsy	bilateral	12	9	3
+sub-02	43	M	n/a	234	127	Dutch	pharmaco-resistant epilepsy	bilateral	19	10	9
+sub-03	24	M	n/a	184	127	Dutch	pharmaco-resistant epilepsy	bilateral	15	5	10
+sub-04	46	F	n/a	117	115	Dutch	pharmaco-resistant epilepsy	R	12	0	12
+sub-05	50	F	n/a	61	60	Dutch	pharmaco-resistant epilepsy	bilateral	5	2	3
+sub-06	16	M	n/a	155	127	Dutch	pharmaco-resistant epilepsy	bilateral	14	5	9
+sub-07	47	M	n/a	134	127	Dutch	pharmaco-resistant epilepsy	bilateral	11	9	2
+sub-08	22	F	n/a	56	54	Dutch	pharmaco-resistant epilepsy	L	5	5	0
+sub-09	20	F	n/a	119	117	Dutch	pharmaco-resistant epilepsy	L	11	11	0
+sub-10	36	M	n/a	124	122	Dutch	pharmaco-resistant epilepsy	R	13	0	13

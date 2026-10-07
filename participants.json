@@ -1,20 +1,20 @@
 {
   "participant_id": {
-    "Description": "Unique participant identifier (as in the source release)"
+    "Description": "Unique participant identifier (as in the source release and in Table 1 of Verwoert et al. 2022)"
   },
   "age": {
-    "Description": "Age of the participant at time of testing (source participants.tsv)",
+    "Description": "Age of the participant at time of testing (source participants.tsv). Cohort (Verwoert et al. 2022, Methods 'Participants'): mean age 32 years (range 16-50).",
     "Units": "year"
   },
   "sex": {
-    "Description": "Biological sex of the participant (source participants.tsv)",
+    "Description": "Biological sex of the participant (source participants.tsv). Cohort (Verwoert et al. 2022, Methods 'Participants'): 5 male, 5 female.",
     "Levels": {
       "F": "female",
       "M": "male"
     }
   },
   "handedness": {
-    "Description": "Handedness (source column 'hand'; not reported for any participant)",
+    "Description": "Handedness (source column 'hand'; n/a for every participant in the source). Not reported in the data descriptor (Verwoert et al. 2022) or the OSF record nrgx6.",
     "Levels": {
       "R": "right",
       "L": "left",
@@ -22,15 +22,43 @@
     }
   },
   "n_contacts_implanted": {
-    "Description": "Number of implanted sEEG contacts (Verwoert et al. 2022, Table 1)"
+    "Description": "Number of implanted sEEG contacts (Verwoert et al. 2022, Table 1 'Implanted'; equals the number of rows of the participant's *_electrodes.tsv). Total 1317.",
+    "Units": "count"
   },
   "n_contacts_recorded": {
-    "Description": "Number of recorded contacts, excluding the reference contact (Verwoert et al. 2022, Table 1)"
+    "Description": "Number of recorded contacts, excluding the reference contact, which is inherently carried in all recorded contacts (Verwoert et al. 2022, Table 1 'Recorded'). Total 1103.",
+    "Units": "count"
   },
   "native_language": {
-    "Description": "All participants were native speakers of Dutch (Verwoert et al. 2022, Methods)"
+    "Description": "Native language. All participants were native speakers of Dutch (Verwoert et al. 2022, Methods 'Participants')",
+    "Levels": {
+      "Dutch": "native speaker of Dutch"
+    }
   },
   "pathology": {
-    "Description": "Clinical indication for the sEEG implantation (Verwoert et al. 2022, Methods)"
+    "Description": "Clinical indication for the sEEG implantation: pharmaco-resistant epilepsy; electrode locations were determined purely by clinical necessity (Verwoert et al. 2022, Methods 'Participants'). Seizure onset zone, aetiology and epilepsy duration are not reported.",
+    "Levels": {
+      "pharmaco-resistant epilepsy": "pharmaco-resistant epilepsy"
+    }
+  },
+  "implanted_hemisphere": {
+    "Description": "Hemisphere(s) with implanted shafts, derived from this release: shaft label prefix of the contacts in *_space-ACPC_electrodes.tsv (L... / R...), checked against the sign of the mean ACPC x coordinate of each shaft (all shafts consistent). Not tabulated in the paper.",
+    "Levels": {
+      "L": "left only",
+      "R": "right only",
+      "bilateral": "shafts in both hemispheres"
+    }
+  },
+  "n_shafts": {
+    "Description": "Number of sEEG electrode shafts (distinct shaft labels in *_space-ACPC_electrodes.tsv; each shaft holds 5-18 contacts per the paper)",
+    "Units": "count"
+  },
+  "n_shafts_left": {
+    "Description": "Number of shafts labelled L... (left hemisphere), from *_electrodes.tsv",
+    "Units": "count"
+  },
+  "n_shafts_right": {
+    "Description": "Number of shafts labelled R... (right hemisphere), from *_electrodes.tsv",
+    "Units": "count"
   }
 }
