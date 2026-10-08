@@ -52,5 +52,7 @@
       "Name": "NEMAR iEEG curation campaign: harness/b2osf_ieeg034_convert.py + b2osf_ieeg034_enrich_check.py",
       "Description": "Lossless re-encoding of the NWB 'iEEG' acquisition stream to BrainVision integer codes (INT_16, or INT_32 where needed) at the coarsest exact quantum per participant (see README), or the original NWB where no exact integer coding exists; sidecars copied from the source iBIDS release and enriched from the data descriptor."
     }
-  ]
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000371",
+  "Version": "1.0.0"
 }
