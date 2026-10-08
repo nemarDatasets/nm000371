@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000371-blue)](https://doi.org/10.82901/nemar.nm000371)
+
 # Dataset of Speech Production in intracranial Electroencephalography (SingleWordProductionDutch-iBIDS)
 
 ## Overview
