@@ -1,5 +1,5 @@
 {
-  "Name": "Dataset of Speech Production in intracranial Electroencephalography (SingleWordProductionDutch-iBIDS)",
+  "Name": "Verwoert-2022-dataset-10.1038/s41597-022-01542-9",
   "BIDSVersion": "1.10.0",
   "DatasetType": "raw",
   "License": "CC-BY-4.0",
@@ -54,5 +54,5 @@
     }
   ],
   "DatasetDOI": "10.82901/nemar.nm000371",
-  "Version": "1.0.0"
+  "Version": "1.0.1"
 }
